@@ -4,16 +4,16 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { providePrimeNG } from 'primeng/config';
 //import Material from '@primeng/themes/Material';
 import { routes } from './app.routes';
-
+import Aura from '@primeng/themes/aura';
 export const appConfig: ApplicationConfig = {
   providers: [
     provideAnimationsAsync(),
     provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes),
     providePrimeNG({
       ripple: true,
-      //theme: {
-        //  preset: Material
-      //}
+      theme: {
+          preset: Aura
+      }
     })
   ],
 
