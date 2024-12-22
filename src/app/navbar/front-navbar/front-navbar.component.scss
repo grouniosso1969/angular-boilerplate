@@ -1,0 +1,13 @@
+
+@tailwind utilities;
+@import "primeicons/primeicons.css";
+
+.fixed {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+
+  body {
+    margin-top:0px;
+  }
