@@ -17,6 +17,7 @@ import {FicheBienComponent} from '../biens/fiche-bien/fiche-bien.component';
 
 @Component({
   selector: 'app-home-child',
+
   imports: [FicheBienComponent,ButtonModule,StepperModule,Menubar, BadgeModule, AvatarModule, InputTextModule, Ripple, FieldsetModule,CommonModule,TabsModule],
   templateUrl: './home-child.component.html',
   styleUrl: './home-child.component.scss'

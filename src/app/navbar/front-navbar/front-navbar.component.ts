@@ -21,7 +21,7 @@ export class FrontNavbarComponent  implements OnInit {
   ngOnInit() {
     this.items = [
         {
-            label: 'Mettre en location',
+            label: 'Home',
             icon: 'pi pi-home',
             route: '/home'
         },
@@ -31,11 +31,11 @@ export class FrontNavbarComponent  implements OnInit {
             route: '/homeChild'
         },
         {
-          label: 'Louer',
+          label: 'Acheter',
           icon: 'pi pi-search',
         },
         {
-          label: 'Acheter',
+          label: 'contact',
           icon: 'pi pi-search',
           route: '/home'
       },        
